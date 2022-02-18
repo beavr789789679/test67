@@ -1,0 +1,131 @@
+header {
+background-color: gray;
+}
+
+img{
+    width: 200px;
+}
+
+main{
+    background-color: black;
+    padding: 10px;
+}
+
+.post{
+    background-color: gray;
+    padding: 20px;
+    border-radius: 30px;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.post img{
+    margin: 20px;
+}
+
+.lol{
+    background-color: grey;
+    padding: 20px;
+    border-radius: 30px;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.lol img{
+    margin: 20px;
+}
+
+.lol2{
+    background-color: gray
+    ;
+    padding: 20px;
+    border-radius: 30px;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.lol2 img{
+    margin: 20px;
+}
+
+footer{
+    background-color: gray;
+}
+ .columns{
+     display: flex;
+ }
+
+.column{
+    margin: 20px;
+    flex: 50%;
+}
+
+#menu1{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#menu1 ul{
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    list-style: none;
+}
+
+#menu1 ul li{
+    position: relative;
+    display: block;
+    width: auto;
+    float: left;
+    height: auto;
+} 
+
+#menu1 ul a{
+    display: block;
+    padding: 9px 25px 0 25px;
+    font-size: 14px;
+    line-height: 1.3em;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    height: 36px;
+    box-sizing: border-box;
+    color: white;
+    background-color: blue;
+}
+
+#menu1 ul li ul{
+    position: absolute;
+    top: 36px;
+    left: 0;
+    display: none;
+    width: 200x;
+    background-color: red;
+
+}
+
+#menu1 ul li:hover ul{
+    display: block;
+}
+
+#menu1 ul li ul li a{
+    display: block;
+    text-transform: none;
+    height: auto;
+    padding: 7px 25px;
+    width: 100%;
+    box-sizing: border-box;
+    border-top: 1px solid black;
+    color: white;
+    background-color: red;
+}
+
+#menu1 ul li ul li{
+    float: none;
+    width: 100%;
+}
